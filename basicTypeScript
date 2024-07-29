@@ -1,0 +1,36 @@
+console.log('main.ts');
+
+let mitexto: String ="firulais";
+
+console.log("Esta es la primera linea \n Esta es la segunda linea");
+console.log(`Mi perro se llama ${mitexto}`);
+console.log(mitexto);
+
+let opt1: number = 4;
+let opt2: number = 5;
+
+console.log(`el numero uno es ${opt1} y el numero dos es ${opt2}`);
+
+let vartipodesconocido: any;
+
+console.log(`El valor de la varibles es: ${vartipodesconocido} y es de tipo ${typeof(vartipodesconocido)}` );
+
+vartipodesconocido = "hola";
+console.log(`El valor de la varibles es: ${vartipodesconocido} y es de tipo ${typeof(vartipodesconocido)}` );
+
+vartipodesconocido = 4;
+console.log(`El valor de la varibles es: ${vartipodesconocido} y es de tipo ${typeof(vartipodesconocido)}` );
+
+function imprimirvalor(): void{
+  console.log("Mensaje de la funcion");
+}
+imprimirvalor();
+
+function sumar(opt1: number, opt2: number): number{
+  return opt1 + opt2;
+}
+let sum1:number=sumar(opt1,opt2);
+console.log(`La suma es ${sum1}`);
+
+let sun:number=sumar(19,5);
+console.log(`La suma es ${sun}`);
